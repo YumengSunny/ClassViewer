@@ -18,6 +18,6 @@ gradle-app.setting
 /out/
 
 *.iml
-/.idea/*
+/.idea/
 
 __***
