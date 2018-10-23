@@ -38,6 +38,7 @@ public final class Viewer extends Application {
     @Override
     public void init() throws Exception {
         Application.setUserAgentStylesheet(Options.skin);
+
     }
 
     @Override

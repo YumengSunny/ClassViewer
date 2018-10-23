@@ -27,9 +27,22 @@ repositories {
 
 dependencies {
     compileOnly "org.openjfx:javafx-base:11:$platform"
+    compileOnly "org.openjfx:javafx-fxml:11:$platform"
     compileOnly "org.openjfx:javafx-graphics:11:$platform"
     compileOnly "org.openjfx:javafx-controls:11:$platform"
-    
+
+    // https://mvnrepository.com/artifact/org.jetbrains/annotations
+    compile group: 'org.jetbrains', name: 'annotations', version: '16.0.3'
+
+    // https://mvnrepository.com/artifact/de.codecentric.centerdevice/centerdevice-nsmenufx
+    compile group: 'de.codecentric.centerdevice', name: 'centerdevice-nsmenufx', version: '2.1.6'
+
+    // https://mvnrepository.com/artifact/org.controlsfx/controlsfx
+    compile group: 'org.controlsfx', name: 'controlsfx', version: '8.40.14'
+
+    // https://mvnrepository.com/artifact/org.fxmisc.richtext/richtextfx
+    compile group: 'org.fxmisc.richtext', name: 'richtextfx', version: '0.9.1'
+
     java9Implementation files(sourceSets.main.output.classesDirs) { builtBy compileJava }
 }
 
