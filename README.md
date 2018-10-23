@@ -12,7 +12,7 @@ This tool is base on [classpy](https://github.com/zxh0/classpy).
 
 ## Build
 ```shell
-gradle jar
+gradle release
 ```
 
 ## Run

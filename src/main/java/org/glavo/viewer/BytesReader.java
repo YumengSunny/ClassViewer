@@ -80,5 +80,4 @@ public class BytesReader {
             buf.get();
         }
     }
-
 }
